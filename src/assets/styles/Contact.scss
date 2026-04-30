@@ -1,0 +1,110 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+}
+
+.dark-mode .MuiOutlinedInput-root {
+  background-color: rgba(88, 71, 108, 0.8) !important;
+}
+
+.light-mode .MuiOutlinedInput-root {
+  background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+.dark-mode .MuiInputBase-input {
+  color: white !important;
+}
+
+.light-mode .MuiInputBase-input {
+  color: black !important;
+}
+.dark-mode .MuiFormLabel-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.light-mode .MuiFormLabel-root {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.Mui-focused .MuiFormLabel-root {
+  color: #5000ca !important;
+}
+  //fieldset {
+    //background-color: white;
+  //}
+
+//label {
+  //font-size: 1.5rem;
+  //font-family: 'DomaineDispNar-Medium', sans-serif;
+//}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
+
+.success-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+
+  padding: 14px 18px;
+  border-radius: 12px;
+
+  background: #5000ca;
+  border: 1px solid rgba(0, 255, 150, 0.5);
+
+  color: #ffffffef !important;
+  font-weight: 600;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 25px rgba(0, 255, 150, 0.15);
+
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
