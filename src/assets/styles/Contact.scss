@@ -108,3 +108,20 @@ form {
     transform: translateY(0);
   }
 }
+.contact-info {
+  margin: 20px 0;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+.contact-info a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}

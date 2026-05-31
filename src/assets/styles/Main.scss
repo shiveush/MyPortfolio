@@ -2,6 +2,20 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #5000ca;
+    color: white;
+    font-weight: 600;
+}
+
+.resume-btn:hover {
+    opacity: 0.9;
+}
 .about-section {
     display: flex;
     gap: 30px;

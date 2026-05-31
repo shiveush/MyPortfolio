@@ -18,10 +18,19 @@ function Main() {
             <a href="https://www.linkedin.com/in/shiveush/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Shiveush Pandiyaraj</h1>
-          <p>I create practical software projects, from frontend apps to system-level experiments.
-            Currently exploring full-stack development and real-time systems.
+          <p> 
+            Computer Science Engineering student passionate about full-stack development,
+            real-time systems, and modern web technologies. Experienced in building web
+            applications, automation tools, and practical software solutions.
           </p>
-
+          <a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noreferrer"
+  className="resume-btn"
+>
+  Download Resume
+</a>
           <div className="mobile_social_icons">
             <a href="https://github.com/shiveush" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/shiveush/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
