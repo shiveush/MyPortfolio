@@ -84,7 +84,7 @@ function Contact() {
                 target="_blank"
                 rel="noreferrer"
               >
-                LinkedIn Profile
+                {" "}linkedin.com/in/shiveush
               </a>
             </p>
 
@@ -94,7 +94,7 @@ function Contact() {
                 target="_blank"
                 rel="noreferrer"
               >
-                GitHub Portfolio
+                {" "}github.com/shiveush
               </a>
             </p>
           </div>
