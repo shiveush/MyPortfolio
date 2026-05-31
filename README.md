@@ -52,8 +52,4 @@ You can reach me via the contact form on the website.
 
 This portfolio is built to present my development skills, projects, and growth as a software engineer.
 
----
-
-## 📌 Note
-
-This project is customized from a base template and fully adapted into a personal portfolio.
+Thank You !!
