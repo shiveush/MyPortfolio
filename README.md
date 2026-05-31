@@ -8,7 +8,7 @@ It showcases my projects, skills, and experience in software development.
 
 ## 🚀 Live Website
 
-https://yourusername.github.io/portfolio
+https://myportfolio-shiveush.vercel.app
 
 ---
 
