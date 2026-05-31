@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {
   Main,
-  Timeline,
   Expertise,
   Project,
   Contact,
@@ -9,7 +8,6 @@ import {
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
-import './index.scss';
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
