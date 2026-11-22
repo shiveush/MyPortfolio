@@ -1,6 +1,7 @@
 import React from "react";
 import proj from '../assets/images/proj.png';
 import '../assets/styles/Project.scss';
+import complaintImg from '../assets/images/complaint.png';
 
 function Project() {
     return(
@@ -22,7 +23,7 @@ function Project() {
 
 <div className="project">
     <a href="https://github.com/shiveush/hostel-complaint-tracker" target="_blank" rel="noreferrer">
-        <img src={proj} className="zoom" alt="Hostel Complaint Tracker" width="100%"/>
+        <img src={complaintImg} className="zoom" alt="Hostel Complaint Tracker" width="100%"/>
     </a>
     <a href="https://github.com/shiveush/hostel-complaint-tracker" target="_blank" rel="noreferrer">
         <h2>Hostel Complaint Tracker</h2>
