@@ -1,7 +1,7 @@
 import React from "react";
-import proj from '../assets/images/proj.png';
 import '../assets/styles/Project.scss';
 import complaintImg from '../assets/images/complaint.png';
+import expenseImg from '../assets/images/expense.png';
 
 function Project() {
     return(
@@ -10,7 +10,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
     <a href="https://github.com/shiveush/expense-tracker-java" target="_blank" rel="noreferrer">
-        <img src={proj} className="zoom" alt="Expense Tracker" width="100%"/>
+        <img src={expenseImg} className="zoom" alt="Expense Tracker" width="100%"/>
     </a>
     <a href="https://github.com/shiveush/expense-tracker-java" target="_blank" rel="noreferrer">
         <h2>Expense Tracker</h2>
