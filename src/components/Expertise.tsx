@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faLaptopCode, faPenRuler } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faLaptopCode, faDatabase } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -10,24 +10,21 @@ const labelsFirst = [
   "OOP",
   "Collections",
   "File Handling",
-  "CLI Apps",
+  "JDBC",
 ];
 
 const labelsSecond = [
   "React",
   "JavaScript",
-  "HTML",
-  "CSS",
-  "Git"
+  "HTML5",
+  "CSS3",
 ];
 
 const labelsThird = [
-  "Figma",
-  "Wireframing",
-  "Prototyping",
-  "User Flow",
-  "UI Design",
-  "UX Thinking"
+  "MySQL",
+  "Git & GitHub",
+  "Postman",
+  "EmailJS",
 ];
 
 function Expertise() {
@@ -64,10 +61,10 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPenRuler} size="3x"/>
-                    <h3>UI/UX Design</h3>
-                    <p>I design application interfaces and user flows using Figma, focusing on usability,
-    clarity, and intuitive user experience.</p>
+                    <FontAwesomeIcon icon={faDatabase} size="3x"/>
+                    <h3>Databases & Tools</h3>
+                    <p>I work with relational databases and developer tooling to build and test 
+    complete, data-driven applications.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
