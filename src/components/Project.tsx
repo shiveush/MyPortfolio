@@ -1,5 +1,4 @@
 import React from "react";
-import projf from '../assets/images/projf.png';
 import proj from '../assets/images/proj.png';
 import '../assets/styles/Project.scss';
 
@@ -22,15 +21,15 @@ function Project() {
 </div>
 
 <div className="project">
-    <a href="https://www.figma.com/design/zfSLiafoI8sUwwj6E9Dfd6/LifeOn?node-id=0-1&t=v0PAp7ntQ3YpVDbf-1" target="_blank" rel="noreferrer">
-        <img src={projf} className="zoom" alt="LifeOn UI" width="100%"/>
+    <a href="https://github.com/shiveush/hostel-complaint-tracker" target="_blank" rel="noreferrer">
+        <img src={proj} className="zoom" alt="Hostel Complaint Tracker" width="100%"/>
     </a>
-    <a href="https://www.figma.com/design/zfSLiafoI8sUwwj6E9Dfd6/LifeOn?node-id=0-1&t=v0PAp7ntQ3YpVDbf-1" target="_blank" rel="noreferrer">
-        <h2>LifeOn – Autopay Manager UI</h2>
+    <a href="https://github.com/shiveush/hostel-complaint-tracker" target="_blank" rel="noreferrer">
+        <h2>Hostel Complaint Tracker</h2>
     </a>
     <p>
-        Designed a mobile application interface to manage autopay bills, focusing on user flow, 
-        usability, and high-fidelity prototyping using Figma.
+        A console-based complaint management system built with Core Java and JDBC, featuring secure 
+        student authentication and role-based workflows for raising, tracking, and resolving complaints.
     </p>
 </div>
 
